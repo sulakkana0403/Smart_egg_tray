@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "608773292003",
+    "firebase_url": "https://smarteggtray-default-rtdb.firebaseio.com",
+    "project_id": "smarteggtray",
+    "storage_bucket": "smarteggtray.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608773292003:android:e44febff2767dca1b82ad6",
+        "android_client_info": {
+          "package_name": "com.example.smarteggtray"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlMr3HuJoWgMhrvJsuSRBux_us5X4pXBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
