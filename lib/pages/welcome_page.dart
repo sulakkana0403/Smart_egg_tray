@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smarteggtray/pages/home_page.dart';
+import 'qr_scanner_page.dart'; // Make sure this file exists and is imported correctly
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});
@@ -71,7 +71,9 @@ class WelcomePage extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => HomePage()),
+                      MaterialPageRoute(
+                        builder: (context) => const QRScannerPage(),
+                      ),
                     );
                   },
                   child: const Text(
